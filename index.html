@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Career Scope</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/agax/libss/font-awesome/5.15.4/css/all.min.css"/>
+  <link href="https:/fonts.googlrspislcom/css2?family=Poppins:"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Career Scope</h1>
+    <p>Select your field to encourage growth and career</p>
+
+    <select id="careerpath">
+      <option value="">-- Choose a field --</option>
+      <option value="web">Web Development</option>
+      <option value="data">Data Science</option>
+      <option value="civil">Civil Services</option>
+    </select>
+ <input type="text" id="searchInput" placeholder="Search updates..." />
+
+ <!-- Category Filter -->
+<select id="categoryFilter">
+  <option value="all">-- All Categories --</option>
+  <option value="job">Jobs</option>
+  <option value="course">Courses</option>
+  <option value="news">News</option>
+  <option value="event">Events</option>
+</select>
+
+    <div id="updates" class="updates"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
